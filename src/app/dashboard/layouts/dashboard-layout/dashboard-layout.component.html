@@ -1,0 +1,16 @@
+<div class="col-12">
+  <div class="col-6">
+    <h1>DashBoard</h1>
+    <hr>
+    <h3>User</h3>
+    <pre>
+      {{User()|json}}
+    </pre>
+    <br>
+  </div>
+  <div class="col-6">
+    <button  routerLink="/auth/login" (click)="onLogOut()" class="btn btn-primary">Cerrar sesion</button>
+  </div>
+</div>
+
+
